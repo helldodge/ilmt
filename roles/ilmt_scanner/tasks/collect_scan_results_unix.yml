@@ -11,7 +11,7 @@
 - name: "Fetch packages with scan results from UNIX/Linux endpoints"
   fetch:
     src: "{{ item.path }}"
-    dest: "{{ lmt_local_file_storage_path }}/{{ lmt_scan_result_packages_folder }}/"
+    dest: "{{ lmt_local_file_storage_path }}/scan_result_packages/"
     flat: true
   register: fetched_files
   with_items: "{{ files_to_copy_unix.files }}"
