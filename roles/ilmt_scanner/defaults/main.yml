@@ -99,7 +99,7 @@ lmt_server_port: 9081
 ##   the License Metric Tool server during scanner uninstallation.
 ################################################################################
 
-# lmt_server_datasource_path:
+lmt_server_datasource_path: "/opt/ibm/LMT/datasource"
 ################################################################################
 ## Parameter        | lmt_server_datasource_path
 ##==============================================================================
