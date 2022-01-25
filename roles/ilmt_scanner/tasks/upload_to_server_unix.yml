@@ -15,9 +15,3 @@
     mode: '0644'
   register: uploaded_files_unix
 
-- name: "Clean packages with scan results from the Control Node"
-  file:
-    path: "{{ lmt_local_file_storage_path }}/{{ lmt_scan_result_packages_folder }}/"
-    state: absent
-  delegate_to: localhost
-  when: uploaded_files_unix is succeeded
