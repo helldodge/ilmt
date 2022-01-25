@@ -7,11 +7,11 @@
             else '/opt/ibm/LMT/datasource'
           ) }}"
 
-- name: "Check if a datasource directory exists on Linux"
-  stat:
-    path: "{{ tmp_lmt_server_datasource_path_unix }}"
-  register: datasource_directory
-  failed_when: not (datasource_directory.stat.exists and datasource_directory.stat.isdir)
+//- name: "Check if a datasource directory exists on Linux"
+//  stat:
+//    path: "{{ tmp_lmt_server_datasource_path_unix }}"
+//  register: datasource_directory
+//  failed_when: not (datasource_directory.stat.exists and datasource_directory.stat.isdir)
 
 - name: "Upload packages with scan results to the License Metric Tool server on Linux"
   copy:
