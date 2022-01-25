@@ -64,7 +64,7 @@ lmt_scanner_path_unix: "/var/opt/ibm/LMTScanner"
 ##   the scanner. 
 ################################################################################
 
-# lmt_server_path:
+lmt_server_path: "/opt/ibm/LMT"
 ################################################################################
 ## Parameter        | lmt_server_path
 ##==============================================================================
@@ -253,7 +253,7 @@ lmt_scanner_daily_pack_results_enabled: true
 ##   Subsequent packages will be generated with the daily frequency.
 ################################################################################
 
-#lmt_scanner_public_cloud_type:
+lmt_scanner_public_cloud_type: "Microsoft Azure"
 ################################################################################
 ## Parameter        | lmt_scanner_public_cloud_type
 ##==============================================================================
