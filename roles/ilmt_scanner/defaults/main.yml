@@ -4,7 +4,7 @@
 ## All variables placed here can be overwritten.                               ##
 ################################################################################
 
-lmt_local_file_storage_path: "./lmt_file_storage"
+lmt_local_file_storage_path: "/mnt/lmt_file_storage/"
 ################################################################################
 ## Parameter        | lmt_local_file_storage_path
 ##==============================================================================
